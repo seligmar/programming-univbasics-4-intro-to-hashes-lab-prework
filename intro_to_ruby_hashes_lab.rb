@@ -28,9 +28,3 @@ def update_counting_hash(hash, key)
       else hash[key] = 1   
 end
 end 
-
-if shipping_manifest["top hat"]
-  shipping_manifest["top hat"] += 1
-else
-  shipping_manifest["top hat"] = 1
-end
